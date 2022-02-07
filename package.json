@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node dist/server.js",
+    "start": "node dist/app.js",
     "start:dev": "LOCAL=true ts-node server.ts",
     "start:devh": "nodemon server.ts",
     "build": "yarn clean && tsc && yarn copy-files",
